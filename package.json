@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1"
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.3.0",
+    "puppeteer": "^1.11.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "ytdl-core": "^0.28.3"
   },
   "scripts": {
     "start": "react-scripts start",

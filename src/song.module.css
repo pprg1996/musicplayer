@@ -1,0 +1,32 @@
+.songDiv{
+  align-self: flex-start;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.songDiv:not(:last-child){
+  border-bottom: 1px solid #222326;
+}
+
+.thumbnailImgDiv{
+  display: inline-block;
+  width: 70px;
+}
+
+.thumbnailImg{
+  width: 100%;
+  display: block;
+}
+
+.songTitle{
+  color:white;
+  margin-left: 10px;
+  font-size: .85rem;
+}
+
+.play{
+  color: white;
+}
